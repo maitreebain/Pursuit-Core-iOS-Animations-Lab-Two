@@ -9,12 +9,16 @@
 import UIKit
 
 class AnimationViewController: UIViewController {
+    
+    let animationView = AnimationView()
+    
+    override func loadView() {
+        view = animationView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        view.backgroundColor = .green
     }
-
-
 }

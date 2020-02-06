@@ -11,8 +11,8 @@
 		80CBA7A823EC975100B55AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA7A723EC975100B55AF1 /* SceneDelegate.swift */; };
 		80CBA7AF23EC975400B55AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA7AE23EC975400B55AF1 /* Assets.xcassets */; };
 		80CBA7B223EC975400B55AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA7B023EC975400B55AF1 /* LaunchScreen.storyboard */; };
-		80CBA7BA23EC97C500B55AF1 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA7B923EC97C500B55AF1 /* AnimationViewController.swift */; };
 		80CBA7BE23EC97F500B55AF1 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA7BD23EC97F500B55AF1 /* AnimationView.swift */; };
+		80CBA7C023EC9A0300B55AF1 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA7BF23EC9A0300B55AF1 /* AnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		80CBA7AE23EC975400B55AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CBA7B123EC975400B55AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80CBA7B323EC975400B55AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80CBA7B923EC97C500B55AF1 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		80CBA7BD23EC97F500B55AF1 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		80CBA7BF23EC9A0300B55AF1 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				80CBA7A523EC975100B55AF1 /* AppDelegate.swift */,
 				80CBA7A723EC975100B55AF1 /* SceneDelegate.swift */,
 				80CBA7BD23EC97F500B55AF1 /* AnimationView.swift */,
-				80CBA7B923EC97C500B55AF1 /* AnimationViewController.swift */,
+				80CBA7BF23EC9A0300B55AF1 /* AnimationViewController.swift */,
 				80CBA7AE23EC975400B55AF1 /* Assets.xcassets */,
 				80CBA7B023EC975400B55AF1 /* LaunchScreen.storyboard */,
 				80CBA7B323EC975400B55AF1 /* Info.plist */,
@@ -137,10 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80CBA7BA23EC97C500B55AF1 /* AnimationViewController.swift in Sources */,
 				80CBA7BE23EC97F500B55AF1 /* AnimationView.swift in Sources */,
 				80CBA7A623EC975100B55AF1 /* AppDelegate.swift in Sources */,
 				80CBA7A823EC975100B55AF1 /* SceneDelegate.swift in Sources */,
+				80CBA7C023EC9A0300B55AF1 /* AnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

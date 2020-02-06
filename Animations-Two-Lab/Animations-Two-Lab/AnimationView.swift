@@ -9,6 +9,34 @@
 import UIKit
 
 class AnimationView: UIView {
+
+    public lazy var linearButton: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.text = "Linear"
+        button.tag = 0
+        return button
+    }()
+    
+    public lazy var EaseInButton: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.text = "EaseInButton"
+        button.tag = 1
+        return button
+    }()
+    
+    public lazy var EaseOutButton: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.text = "EaseOutButton"
+        button.tag = 2
+        return button
+    }()
+    
+    public lazy var EaseInOutButton: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.text = "EaseInOutButton"
+        button.tag = 3
+        return button
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: UIScreen.main.bounds)
@@ -24,5 +52,6 @@ class AnimationView: UIView {
         
     }
     
+    private func setUp
     
 }
